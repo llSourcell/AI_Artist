@@ -49,11 +49,11 @@ Other optional commands are
 - `--maintain_aspect_ratio`: to maintain aspect ratio or not 
 - `--content_layer`: which layer to focus on for content generation
 
-On a 980M GPU, the time required for each epoch depends on mainly image size (gram matrix size) :
+I'd run this on AWS, but you can run this locally too if you have a GPU. On a 980M GPU, the time required for each epoch depends on mainly image size (gram matrix size) :
 
-For a 400x400 gram matrix, each epoch takes approximately 11-13 seconds. 
-For a 512x512 gram matrix, each epoch takes approximately 18-22 seconds. 
-For a 600x600 gram matrix, each epoch takes approximately 28-30 seconds. 
+- For a 400x400 gram matrix, each epoch takes approximately 11-13 seconds. 
+- For a 512x512 gram matrix, each epoch takes approximately 18-22 seconds. 
+- For a 600x600 gram matrix, each epoch takes approximately 28-30 seconds. 
 
 Credits
 ===========
