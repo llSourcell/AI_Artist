@@ -32,7 +32,9 @@ There are 3 images to identify when we run the script
 2. Your reference image (the art to learn from)
 3. Your generated image
 
-Run `python network.py --base_image_path /path/to/your/image Shot --style_reference_image_path /path/to/your/painting --result_prefix /path/to/generated/file/you/create` to generate an image in your chosen style
+Run the following comand to generate an image in your chosen style
+
+`python network.py --base_image_path /path/to/your/image Shot --style_reference_image_path /path/to/your/painting --result_prefix /path/to/generated/file/you/create` 
 
 Other optional commands are 
 
@@ -55,4 +57,4 @@ For a 600x600 gram matrix, each epoch takes approximately 28-30 seconds.
 
 Credits
 ===========
-Credit for the vast majority of code here goes to [Yoav Zimmerman](https://github.com/yoavz). I've merely created a wrapper around all of the important functions to get people started.
+Credit for the vast majority of code here goes to [Somsubra Majumdar](https://github.com/titu1994). I've merely created a wrapper around all of the important functions to get people started.
