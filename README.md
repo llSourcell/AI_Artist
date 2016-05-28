@@ -1,6 +1,6 @@
 Overview
 ============
-A project that trains a  convolutional neural network over a dataset to repaint an novel image in the style of a given painting. This is the implementation of Neural Style Transfer from the paper A Neural Algorithm of Artistic Style(http://arxiv.org/abs/1508.06576) in Keras 1.0.2. This is also the code for 'Build an AI Artist' on [Youtube](https://youtu.be/S_f2qV2_U00)
+A project that trains a  convolutional neural network over a dataset to repaint an novel image in the style of a given painting. This is the implementation of Neural Style Transfer from the paper [A Neural Algorithm of Artistic Style](http://arxiv.org/abs/1508.06576) in Keras 1.0.2. This is also the code for 'Build an AI Artist' on [Youtube](https://youtu.be/S_f2qV2_U00)
 
 ![Alt Text](https://raw.githubusercontent.com/titu1994/Neural-Style-Transfer/master/images/Blue%20Moon%20Lake.gif)
 
@@ -34,16 +34,16 @@ Run `python network.py --base_image_path /path/to/your/image Shot --style_refere
 
 Other optional commands are 
 
-`--image_size`: Size of your output image
-`--content_weight`: How much to weigh the content
-`--style_weight`: How much to weigh the style
-`-style_scale`: How much to scale the style
-`--total_variation_weight`: Uniformity of the generated image
-`--num_iter`: Nmber of iterations
-`--rescale_image`: to rescale or not to rescale
-`--rescale_method`: rescale algorithm 
-`--maintain_aspect_ratio`: to maintain aspect ratio or not 
-`--content_layer`: which layer to focus on for content generation
+- `--image_size`: Size of your output image
+- `--content_weight`: How much to weigh the content
+- `--style_weight`: How much to weigh the style
+- `-style_scale`: How much to scale the style
+- `--total_variation_weight`: Uniformity of the generated image
+- `--num_iter`: Nmber of iterations
+- `--rescale_image`: to rescale or not to rescale
+- `--rescale_method`: rescale algorithm 
+- `--maintain_aspect_ratio`: to maintain aspect ratio or not 
+- `--content_layer`: which layer to focus on for content generation
 
 On a 980M GPU, the time required for each epoch depends on mainly image size (gram matrix size) :
 
