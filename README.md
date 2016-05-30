@@ -1,6 +1,6 @@
 Overview
 ============
-A project that trains a  convolutional neural network over a dataset to repaint an novel image in the style of a given painting. This is the implementation of Neural Style Transfer from the paper [A Neural Algorithm of Artistic Style](http://arxiv.org/abs/1508.06576) in Keras 1.0.2. This is also the code for 'Build an AI Artist' on [Youtube]()
+A project that trains a  convolutional neural network over a dataset to repaint an novel image in the style of a given painting. This is the implementation of Neural Style Transfer from the paper [A Neural Algorithm of Artistic Style](http://arxiv.org/abs/1508.06576) in Keras 1.0.2. This is also the code for 'Build an AI Artist' on [Youtube](https://youtu.be/9Mxw_ilpvwA)
 
 ![Alt Text](https://raw.githubusercontent.com/titu1994/Neural-Style-Transfer/master/images/Blue%20Moon%20Lake.gif)
 
