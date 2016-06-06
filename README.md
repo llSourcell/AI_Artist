@@ -16,6 +16,7 @@ Dependencies
 * sklearn (http://scikit-learn.org/stable/install.html)
 * CUDA (GPU) (http://docs.nvidia.com/cuda/cuda-getting-started-guide-for-mac-os-x/)
 * CUDNN (GPU) (https://developer.nvidia.com/cudnn)
+* VGG16 file https://drive.google.com/file/d/0Bz7KyqmuGsilT0J5dmRCM0ROVHc/view?usp=sharing
 
 Use [pip](https://pypi.python.org/pypi/pip) to install any missing dependencies
 
