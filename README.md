@@ -33,14 +33,14 @@ There are 3 images to identify when we run the script
 
 Run the following comand to generate an image in your chosen style
 
-`python network.py --base_image_path /path/to/your/image Shot --style_reference_image_path /path/to/your/painting --result_prefix /path/to/generated/file/you/create` 
+`python Network.py --base_image_path /path/to/your/image Shot --style_reference_image_path /path/to/your/painting --result_prefix /path/to/generated/file/you/create` 
 
 Other optional commands are 
 
 - `--image_size`: Size of your output image
 - `--content_weight`: How much to weigh the content
 - `--style_weight`: How much to weigh the style
-- `-style_scale`: How much to scale the style
+- `--style_scale`: How much to scale the style
 - `--total_variation_weight`: Uniformity of the generated image
 - `--num_iter`: Nmber of iterations
 - `--rescale_image`: to rescale or not to rescale
