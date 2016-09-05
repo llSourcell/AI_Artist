@@ -14,6 +14,7 @@ Dependencies
 * Theano (http://deeplearning.net/software/theano/install.html#install) 
 * h5py (http://docs.h5py.org/en/latest/build.html)
 * sklearn (http://scikit-learn.org/stable/install.html)
+* Pillow (https://pillow.readthedocs.io/en/latest/installation.html)
 * CUDA (GPU) (http://docs.nvidia.com/cuda/cuda-getting-started-guide-for-mac-os-x/)
 * CUDNN (GPU) (https://developer.nvidia.com/cudnn)
 * VGG16 file https://drive.google.com/file/d/0Bz7KyqmuGsilT0J5dmRCM0ROVHc/view?usp=sharing
@@ -33,7 +34,7 @@ There are 3 images to identify when we run the script
 
 Run the following comand to generate an image in your chosen style
 
-`python network.py --base_image_path /path/to/your/image Shot --style_reference_image_path /path/to/your/painting --result_prefix /path/to/generated/file/you/create` 
+`python network.py --base_image_path /path/to/your/image --style_reference_image_path /path/to/your/painting --result_prefix /path/to/generated/file/you/create` 
 
 Other optional commands are 
 
