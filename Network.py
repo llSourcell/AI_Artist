@@ -73,7 +73,7 @@ def deprocess_image(x):
     x = np.clip(x, 0, 255).astype('uint8')
     return x
 
-def load_weights(weight_path, model):
+def load_weights(weights_path, model):
     assert os.path.exists(weights_path), 'Model weights not found (see "weights_path" variable in script).'
     f = h5py.File(weights_path)
     for k in range(f.attrs['nb_layers']):
@@ -160,7 +160,7 @@ def combine_loss_and_gradient(loss, gradient):
     return f_outputs
 
 def prepare_image():
-    assert args.init_image in ["content", "noise"] , "init_image must be one of ['original', 'noise']"
+    assert args.init_image in ["content", "noise"] , "init_image must be one of ['content', 'noise']"
     if "content" in args.init_image:
         x = preprocess_image(base_image_path, True)
     else:
