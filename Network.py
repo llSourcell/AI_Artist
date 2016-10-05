@@ -10,7 +10,7 @@ import h5py
 from keras.models import Sequential
 from keras.layers.convolutional import Convolution2D, ZeroPadding2D, AveragePooling2D
 from keras import backend as K
-
+K.set_image_dim_ordering('th')
 
 #### There are 3 Parts #####
 
